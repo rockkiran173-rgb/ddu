@@ -1,0 +1,136 @@
+.navbar {
+   
+    width: 100%;
+    height: 100px;
+    background-color: rgb(234, 228, 228);
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.477);
+    padding: 10px;
+}
+.menu-list {
+    display: flex;
+    gap: 90px;
+    margin-left: 100px;
+    padding: 30px;
+     
+}
+.list {
+    color: rgb(52, 42, 42);
+    text-decoration: none;
+    font-size: 20px;
+  
+}
+.serach{
+    padding: 10px;
+    width: 200px;
+    border-radius: 5%;
+}
+.btn{
+    padding: 10px;
+    width: 100px;
+    background-color: rgb(255, 94, 0);
+    font-weight: bold;
+    color: white;
+    border-radius: 5%;
+}
+.serach-bar{
+    margin-left: 140px;
+}
+.logo {
+    position: relative;
+    bottom: 20px;
+}
+.banner{
+   
+    background-image: url(asset/banner-2.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.family{
+    
+    color: white;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 150px;
+  left: 30px;
+}
+.shop{
+    padding: 12px;
+    width: 140px;
+
+    position: relative;
+    top: 170px;
+    left: 120px;
+    background-color: rgb(13, 12, 12);
+    color: white;
+}
+.btn:hover{
+background-color: black;
+}
+
+.list:hover{
+background-color: rgb(255, 85, 0);
+color: white;
+padding: 8px;
+border-radius: 10%;
+height: 30px;
+
+
+}
+.shop:hover{
+background-color: azure;
+color: black;
+}
+.food{
+    width: 100%;
+    height: 350px;
+    display: flex;
+     gap: 20px;
+     margin: 80px;
+}
+.biriyani{
+    width: 260px;
+    height: 200px;
+    transition: transform 0.8s;
+}
+.card{
+    border: 2px solid rgba(0, 0, 0, 0.057);
+    width: 300px;
+    height: 300px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+}
+.mind{
+    margin: 70px;
+    color: rgba(0, 0, 0, 0.647);
+}
+.card h3{
+    color: rgba(8, 6, 6, 0.763);
+}
+.biriyani:hover{
+
+    transform: scale(1.2);
+}
+
+.card:hover{
+border-color: orangered;
+}
+.order{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.737);
+}
+.discover{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin: 170px;
+    gap: 50px;
+}
+
